@@ -772,11 +772,13 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-  background-color: #364577;
+  /*background-color: #364577;*/
+  background-color: #1c1c1c;
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  /*background-color: #f3976c;*/
+  background-color: #595959;
 }
 
 .tc-white {
