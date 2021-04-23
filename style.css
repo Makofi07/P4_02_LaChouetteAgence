@@ -10,6 +10,9 @@ body {
 .fz {
   font-size: 20px;
 }
+.mailAddress {
+  font-size: 1.7em;
+}
 a,
 button {
   transition: all 0.3s ease-in-out;
