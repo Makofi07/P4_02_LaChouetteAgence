@@ -30,10 +30,15 @@
     <meta name="googlebot" content="index,follow" />
     <!-- End Index for Google -->
     <!-- Preload -->
-    <link rel="preload" href="./fonts/et-line.eot" as="font" />
     <link rel="preload" href="./css/style.css" as="style" />
-    <link rel="preload" href="./js/bootstrap.js" as="script" />
     <link rel="preload" href="./css/bootstrap.css" as="style" />
+    <link rel="preload" href="./fonts/et-line.eot" as="font" crossorigin />
+    <link rel="preload" href="./js/bootstrap.js" as="script" />
+    <link
+      rel="preload"
+      as="image"
+      href="./img/la-chouette-agence-banniere.webp"
+    />
 
     <!--  -->
     <!-- prevent any duplication -->
@@ -57,11 +62,13 @@
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
 
+    <!-- Script de base
     <script src="./js/jquery-2.1.0.js" defer></script>
     <script src="./js/bootstrap.js" defer></script>
     <script src="./js/blocs.js" defer></script>
     <script src="./js/jquery.touchSwipe.js" defer></script>
     <script src="./js/gmaps.js" defer></script>
+-->
     <!-- fill in the title field -->
     <title>La chouette agence | Entreprise Web design à Lyon</title>
     <!-- End fill in the title field -->
@@ -447,4 +454,29 @@
     </div>
     <!-- Principal conteneur END -->
   </body>
+
+  <!-- Les Script minifier -->
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="//cdn.jsdelivr.net/blocks/0.3.4/blocks.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <!--
+  *********** Link CSS Bootstrap minifie ********
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+
+  -->
 </html>
